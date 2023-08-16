@@ -1,0 +1,161 @@
+body {
+    font-family: "Prompt", Sans-serif;
+    color: white;
+    background-color: #000000;
+    background-image: url(https://luna777.com/wp-content/uploads/2022/07/BG2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2, h3 {
+    font-weight: 600;
+    color: #fcb918 !important;
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+
+ p, span {
+    font-family: "Prompt", Sans-serif;
+    color: white!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 35px;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+}
+
+
+p, span, a {
+    font-size: 18px;
+    line-height: 1.5em;
+
+}
+
+section, article {
+    padding: 10px;
+}
+
+/* header */
+
+header {
+    background-color: transparent;
+    background-image: linear-gradient(213deg, #04F6FF 14%, #9403FE 78%);
+    padding: 0;
+    align-items: center;
+}
+
+.img-logo-luna img {
+    width: 50%;
+}
+
+button {
+    border: none;
+    padding: 10px 30px 10px 25px;
+    background-color: #5bc0de;
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-luna {
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.btn-luna a {
+    font-family: "Prompt", Sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* main */
+.header-img img {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.img-2col img {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+
+/* footer */
+footer {
+    background-color: transparent;
+    background-image: linear-gradient(24deg, #04F6FF 14%, #9403FE 78%);
+    padding: 10px 0px 100px 0px;
+}
+
+nav {
+    display: block;
+}
+
+.nav-footer ul {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+}
+
+.nav-ul-footer li {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.nav-li-footer a {
+    font-family: "Prompt", Sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer .footer-stiky {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    z-index: 999;
+    width: 100%;
+    background-color: transparent;
+    background-image: linear-gradient(24deg, #04F6FF 14%, #9403FE 78%);
+    padding: 10px 0px 10px 0px;
+    margin-top: 0px;
+    margin-bottom: -1px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 1024px) {
+
+    .img-logo-luna img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-logo-luna {
+        text-align: center;
+    }
+    .img-logo-luna img {
+        width: 20%;
+    }
+    .btn-head {
+        display: none;
+    }
+    footer {
+        padding: 5px 0px 60px 0px;
+    }
+    .btn-foo {
+        display:none;
+    }
+    .btn-luna {
+        margin: 0;
+    }
+
+}
+@media (max-width: 425px) {
+
+    .img-logo-luna img {
+        width: 40%;
+    }
+}
